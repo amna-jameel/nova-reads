@@ -4,26 +4,24 @@ body {
   padding: 0;
   margin: 0;
 }
-:root{
-  --navcolor:rgb(6, 39, 90);
-  --btncolor: #2563EB;
-  --btn-hover:rgb(40, 80, 160);
- --btn-active: rgb(15, 45, 95);
- --yellowcolor:gold;
-
+:root {
+  --navcolor: rgb(6, 39, 90);
+  --btncolor: #2563eb;
+  --btn-hover: rgb(40, 80, 160);
+  --btn-active: rgb(15, 45, 95);
+  --yellowcolor: gold;
 }
 .main {
   background-color: var(--navcolor);
   color: white;
   text-decoration: none;
-height: 70px;
-  
+  height: 70px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
   gap: 35px;
-  
 }
 a {
   color: white;
@@ -34,38 +32,35 @@ a {
   font-size: 29px;
   text-transform: uppercase;
   font-weight: bolder;
- margin-left: 20px;
- cursor:default;
+  margin-left: 20px;
+  cursor: default;
   font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
- 
-  
 }
 .logo:hover {
   color: white;
   text-decoration: none;
 }
-.links{
+.links {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 10px;
- 
- margin-right: 40px;
 
+  margin-right: 40px;
 }
-.nav-link{
+.nav-link {
   transition: all 0.5s ease;
   transition: transform 0.5s ease;
 }
 .nav-link:hover {
   transform: translateY(-2px);
-  color:var(--yellowcolor);
+  color: var(--yellowcolor);
   text-underline-offset: 6px;
   text-decoration: underline;
 }
 .nav-btn {
-  background-color : var(--btncolor);
+  background-color: var(--btncolor);
   border: 1px solid transparent;
   padding: 7px 18px;
   border-radius: 5px;
@@ -98,21 +93,19 @@ a {
   align-items: center;
   gap: 280px;
   padding-top: 12px;
-  padding-bottom: 0px; 
+  padding-bottom: 0px;
 }
- .hero-head{
+.hero-head {
   font-size: 48px;
-
- }
- .hero-para{
+}
+.hero-para {
   padding-bottom: 8px;
   padding-top: 5px;
   color: rgb(231, 231, 231);
   width: 440px;
- }
-.intro-img{
+}
+.intro-img {
   height: 400px;
- 
 }
 .hero-btn {
   background-color: var(--btncolor);
@@ -128,6 +121,10 @@ button:hover {
 button:active {
   background-color: var(--btn-active);
 }
+.focus {
+  padding-top: 50px;
+  margin: 0px 100px;
+}
 .focus-head,
 .focus-para {
   text-align: center;
@@ -136,13 +133,12 @@ button:active {
 .focus-head {
   margin-bottom: 0px;
 }
-.focus-card{
+.focus-card {
   display: flex;
-  flex-direction:row;
-  justify-content:center;
+  flex-direction: row;
+  justify-content: center;
   gap: 10px;
   align-items: center;
- 
 }
 .card {
   height: 180px;
@@ -154,25 +150,21 @@ button:active {
   text-align: center;
   margin: 10px;
   margin-top: 20px;
-  
-  background: linear-gradient(135deg, #CCE0FF, #E6F7FF);
+
+  background: linear-gradient(135deg, #cce0ff, #e6f7ff);
   box-shadow: 8px 8px 5px grey;
   transition: all 0.25s ease;
   transition: transform 0.25s ease;
 }
 .card:hover {
   transform: translateY(-3px);
- background:linear-gradient(135deg, #99C2FF, #D0EDFF);
+  background: linear-gradient(135deg, #99c2ff, #d0edff);
 }
 
-.focus {
-  margin: 0px 100px;
-}
 .icon {
   font-size: 40px;
   color: rgb(229, 195, 3);
 }
-
 
 .card-head {
   font-size: 22px;
@@ -195,6 +187,9 @@ button:active {
   border-radius: 50px;
   margin: auto;
 }
+.team {
+  padding-top: 50px;
+}
 
 .team-head,
 .team-para {
@@ -212,7 +207,7 @@ button:active {
   padding-top: 20px;
 }
 .team-card {
-  background: linear-gradient(135deg, #F0F4FA, #E6F0FA);
+  background: linear-gradient(135deg, #f0f4fa, #e6f0fa);
   width: 290px;
   height: 450px;
   border: 2px solid transparent;
@@ -223,7 +218,7 @@ button:active {
 }
 .team-card:hover {
   transform: translateY(-2px);
-  background: linear-gradient(135deg, #E0E8FA, #e2e8f5);
+  background: linear-gradient(135deg, #e0e8fa, #e2e8f5);
 }
 .team-img {
   width: 290px;
@@ -264,8 +259,8 @@ button:active {
   background-color: #185ff9;
   color: white;
 }
-.offer{
-  margin-top: 60px;
+.offer {
+  padding-top: 50px;
 }
 .offer-head,
 .offer-para {
@@ -283,7 +278,7 @@ button:active {
   padding-top: 20px;
 }
 .offer-card {
-  background: linear-gradient(135deg, #D6E4FF, #FFFFFF);
+  background: linear-gradient(135deg, #d6e4ff, #ffffff);
   width: 310px;
   height: 420px;
   border: 2px solid transparent;
@@ -292,8 +287,8 @@ button:active {
   transition: transform 0.25s ease;
 }
 .offer-card:hover {
- transform: translateY(-2px);
- background: linear-gradient(135deg, #cddfff, #E6F0FF);
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #cddfff, #e6f0ff);
 }
 .offer-img {
   width: 310px;
@@ -325,7 +320,7 @@ button:active {
   font-weight: bold;
 }
 .footer {
-    background-color: rgb(6, 39, 90);
+  background-color: rgb(6, 39, 90);
   color: white;
   text-align: center;
   padding: 8px;
