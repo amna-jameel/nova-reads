@@ -1,0 +1,333 @@
+body {
+  background-color: #e4e7ea;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+:root{
+  --navcolor:rgb(6, 39, 90);
+  --btncolor: #2563EB;
+  --btn-hover:rgb(40, 80, 160);
+ --btn-active: rgb(15, 45, 95);
+ --yellowcolor:gold;
+
+}
+.main {
+  background-color: var(--navcolor);
+  color: white;
+  text-decoration: none;
+height: 70px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 35px;
+  
+}
+a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+.logo {
+  font-size: 29px;
+  text-transform: uppercase;
+  font-weight: bolder;
+ margin-left: 20px;
+ cursor:default;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+ 
+  
+}
+.logo:hover {
+  color: white;
+  text-decoration: none;
+}
+.links{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+ 
+ margin-right: 40px;
+
+}
+.nav-link{
+  transition: all 0.5s ease;
+  transition: transform 0.5s ease;
+}
+.nav-link:hover {
+  transform: translateY(-2px);
+  color:var(--yellowcolor);
+  text-underline-offset: 6px;
+  text-decoration: underline;
+}
+.nav-btn {
+  background-color : var(--btncolor);
+  border: 1px solid transparent;
+  padding: 7px 18px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  transition: transform 0.25s ease;
+  font-weight: bold;
+}
+.nav-btn:hover {
+  transform: translateY(-1px) scale(1.01);
+
+  background-color: var(--btn-hover);
+}
+.nav-btn:active {
+  background-color: var(--btn-active);
+}
+.hero-section {
+  background-color: #eaf2ff;
+  text-align: start;
+  padding-right: 50px;
+  padding-left: 50px;
+  color: white;
+  background-image: url(images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 280px;
+  padding-top: 12px;
+  padding-bottom: 0px; 
+}
+ .hero-head{
+  font-size: 48px;
+
+ }
+ .hero-para{
+  padding-bottom: 8px;
+  padding-top: 5px;
+  color: rgb(231, 231, 231);
+  width: 440px;
+ }
+.intro-img{
+  height: 400px;
+ 
+}
+.hero-btn {
+  background-color: var(--btncolor);
+  border: 1px solid transparent;
+  padding: 12px 18px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+button:hover {
+  background-color: var(--btn-hover);
+}
+button:active {
+  background-color: var(--btn-active);
+}
+.focus-head,
+.focus-para {
+  text-align: center;
+  color: rgb(16, 16, 16);
+}
+.focus-head {
+  margin-bottom: 0px;
+}
+.focus-card{
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+  gap: 10px;
+  align-items: center;
+ 
+}
+.card {
+  height: 180px;
+  width: 300px;
+  border: 2px solid transparent;
+  border-radius: 16px;
+  /* display: inline-block; */
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  margin-top: 20px;
+  
+  background: linear-gradient(135deg, #CCE0FF, #E6F7FF);
+  box-shadow: 8px 8px 5px grey;
+  transition: all 0.25s ease;
+  transition: transform 0.25s ease;
+}
+.card:hover {
+  transform: translateY(-3px);
+ background:linear-gradient(135deg, #99C2FF, #D0EDFF);
+}
+
+.focus {
+  margin: 0px 100px;
+}
+.icon {
+  font-size: 40px;
+  color: rgb(229, 195, 3);
+}
+
+
+.card-head {
+  font-size: 22px;
+  font-weight: bolder;
+}
+.card-para {
+  color: rgb(7, 6, 6);
+}
+
+.line {
+  background: linear-gradient(
+    45deg,
+    #a200ff,
+    rgb(255, 49, 84),
+    rgb(255, 0, 166)
+  );
+  height: 2px;
+  width: 80px;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  margin: auto;
+}
+
+.team-head,
+.team-para {
+  text-align: center;
+  color: rgb(16, 16, 16);
+}
+.team-head {
+  margin-bottom: 0px;
+}
+.team-container {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  justify-content: center;
+  padding-top: 20px;
+}
+.team-card {
+  background: linear-gradient(135deg, #F0F4FA, #E6F0FA);
+  width: 290px;
+  height: 450px;
+  border: 2px solid transparent;
+  border-radius: 18px;
+  box-shadow: 7px 7px 5px grey;
+  transition: all 0.25s ease;
+  transition: transform 0.25s ease;
+}
+.team-card:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #E0E8FA, #e2e8f5);
+}
+.team-img {
+  width: 290px;
+  height: 200px;
+  padding-bottom: 0px;
+  border-radius: 18px;
+}
+.content {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+}
+.member-name {
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: bolder;
+}
+.member-role {
+  color: #185ff9;
+  font-weight: bold;
+}
+.member-des {
+  padding-left: 3px;
+  color: rgb(50, 50, 50);
+}
+.team-icons {
+  margin-left: 20px;
+  background-color: rgb(198, 198, 198);
+  border: 1px solid transparent;
+  border-radius: 50%;
+  font-size: 19px;
+  color: #185ff9;
+  padding: 6px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.team-icons:hover {
+  background-color: #185ff9;
+  color: white;
+}
+.offer{
+  margin-top: 60px;
+}
+.offer-head,
+.offer-para {
+  text-align: center;
+  color: rgb(16, 16, 16);
+}
+.offer-head {
+  margin-bottom: 0px;
+}
+.offer-container {
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+  justify-content: center;
+  padding-top: 20px;
+}
+.offer-card {
+  background: linear-gradient(135deg, #D6E4FF, #FFFFFF);
+  width: 310px;
+  height: 420px;
+  border: 2px solid transparent;
+  border-radius: 2px;
+  box-shadow: 4px 4px 2px grey;
+  transition: transform 0.25s ease;
+}
+.offer-card:hover {
+ transform: translateY(-2px);
+ background: linear-gradient(135deg, #cddfff, #E6F0FF);
+}
+.offer-img {
+  width: 310px;
+  height: 200px;
+  padding-bottom: 0px;
+  border-radius: 2px;
+}
+.content {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 0px;
+}
+.offer-name {
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.offer-des {
+  padding-left: 3px;
+  color: rgb(100, 100, 100);
+}
+.offer-btn {
+  background-color: var(--btncolor);
+  border: 1px solid transparent;
+  padding: 8px 18px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+.footer {
+    background-color: rgb(6, 39, 90);
+  color: white;
+  text-align: center;
+  padding: 8px;
+  margin-top: 30px;
+}
